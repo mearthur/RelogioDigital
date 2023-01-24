@@ -28,8 +28,7 @@ if (6 <= mudarFundo && mudarFundo < 12) {
   document.body.style.background = "linear-gradient(34deg, rgba(0,6,122,1) 11%, rgba(49,52,201,1) 51%, rgba(160,255,227,1) 90%)";
 
 }else {
-  
-  document.body.style.background = "linear-gradient(34deg, rgba(0,3,50,1) 31%, rgba(207,23,23,1) 70%, rgba(255,154,0,1) 100%)";
+  document.body.style.background = "linear-gradient(34deg, rgba(0,3,50,1) 52%, rgba(207,23,23,1) 85%, rgba(255,154,0,1) 100%)";
 
 }
 
