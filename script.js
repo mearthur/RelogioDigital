@@ -20,14 +20,17 @@ const relogio = setInterval(function time() {
 
   
   if (6 <= hr && hr < 12) {
-    document.body.style.background =
-      "linear-gradient(34deg, rgba(255,0,0,1) 5%, rgba(255,85,0,1) 32%, rgba(255,226,0,1) 91%)";
+    document.body.style.backgroundImage =
+      // "linear-gradient(34deg, rgba(255,0,0,1) 5%, rgba(255,85,0,1) 32%, rgba(255,226,0,1) 91%)";
+      "url(https://www.bhmpics.com/downloads/minimalist-forest-Wallpapers/1.wp7528738.jpg)"
+      
   } else if (12 <= hr && hr < 18) {
-    document.body.style.background =
-      "linear-gradient(34deg, rgba(0,6,122,1) 11%, rgba(49,52,201,1) 51%, rgba(160,255,227,1) 90%)";
+    document.body.style.backgroundImage =
+      "url(https://wallpapercave.com/wp/wp7528778.jpg)";
   } else {
-    document.body.style.background =
-      "linear-gradient(34deg, rgba(0,3,50,1) 52%, rgba(207,23,23,1) 85%, rgba(255,154,0,1) 100%)";
+    document.body.style.backgroundImage =
+      // "linear-gradient(34deg, rgba(0,3,50,1) 52%, rgba(207,23,23,1) 85%, rgba(255,154,0,1) 100%)";
+    "url(https://lh3.googleusercontent.com/proxy/4l9VULVhZLrrFG0nGasv6x3LQb3OSVIAkMlU1PPi97yBn8X6ong-DlfbOQzp5yZUbBFT4nzaJ6i4SI1neVKF42pKfUiil_MfVEDFX5YwWK_96sH0ZSL89etTbUH93thwZqV9)"
   }
 });
 
