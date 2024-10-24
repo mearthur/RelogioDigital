@@ -17,21 +17,21 @@ const relogio = setInterval(function time() {
   horas.textContent = hr;
   minutos.textContent = min;
   segundos.textContent = s;
-
   
   if (6 <= hr && hr < 12) {
     document.body.style.backgroundImage =
-      // "linear-gradient(34deg, rgba(255,0,0,1) 5%, rgba(255,85,0,1) 32%, rgba(255,226,0,1) 91%)";
-      "url(https://www.bhmpics.com/downloads/minimalist-forest-Wallpapers/1.wp7528738.jpg)"
+      "url(./img/1.wp7528738.jpg)"
       
   } else if (12 <= hr && hr < 18) {
     document.body.style.backgroundImage =
-      "url(https://wallpapercave.com/wp/wp7528778.jpg)";
+      "url(./img/wp7528778.jpg)";
+      
   } else {
     document.body.style.backgroundImage =
-      // "linear-gradient(34deg, rgba(0,3,50,1) 52%, rgba(207,23,23,1) 85%, rgba(255,154,0,1) 100%)";
-    "url(https://lh3.googleusercontent.com/proxy/4l9VULVhZLrrFG0nGasv6x3LQb3OSVIAkMlU1PPi97yBn8X6ong-DlfbOQzp5yZUbBFT4nzaJ6i4SI1neVKF42pKfUiil_MfVEDFX5YwWK_96sH0ZSL89etTbUH93thwZqV9)"
+    "url(./img/unnamed.jpg)"
   }
 });
 
 // linear-gradient(34deg, rgba(0,8,163,1) 9%, rgba(1,3,77,1) 42%, rgba(0,0,0,1) 81%)
+// "linear-gradient(34deg, rgba(255,0,0,1) 5%, rgba(255,85,0,1) 32%, rgba(255,226,0,1) 91%)";
+ // "linear-gradient(34deg, rgba(0,3,50,1) 52%, rgba(207,23,23,1) 85%, rgba(255,154,0,1) 100%)";
